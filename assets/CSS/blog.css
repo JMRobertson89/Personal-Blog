@@ -1,0 +1,73 @@
+.blog-post {
+  margin: 20px;
+}
+
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.post-box {
+  padding: 10px;
+  border: 2px solid #d83e55;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center; 
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: xxx-large;
+}
+
+.h2 {
+  color: black;
+  text-decoration: underline;
+}
+
+.p {
+  color: rgb(0, 0, 0);
+  font-size: large;
+}
+
+.span {
+  text-decoration: underline;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: small;
+  color: black;
+}
+
+#backButton {
+  display: block;
+  padding: 10px 20px;
+  background-color: #d83e55;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+}
+
+#backButton:hover {
+  background-color: #000000;
+  color: white;
+}
+
+a {
+  font-weight: 600;
+}
+
+a:hover {
+  color: #d83e55;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Blog</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="stylesheet" href="./assets/CSS/form.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <div>
+                <h1>My Personal Blog</h1>
+                <p>Light Mode</p>
+                <label class="switch">
+                    <input id="toggle" type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <p>Dark Mode</p>
+            </div>
+        </header>
+    </section>
+
+    <main class="columns">
+            <img src="./assets/Images/Joshua Robertson.jpg" alt="image of author">
+            <div class="form-container">
+                <h2>What's on your mind?</h2>
+                <form id="blogForm" method="get">
+                    <input type="text" id="username" name="username" placeholder="Username" required>
+                    <input type="text" id="title" name="title" placeholder="Title" required>
+                    <textarea id="content" name="content" placeholder="Content" rows="20" required></textarea>
+                    <button style="background-color: #d83e55;" type="submit" id="save">Submit</button>
+                </form>
+            </div>
+    </main>
+
+    <section class="footer">
+        <footer>
+            <h3>@2024 Joshua Robertson Productions</h3>
+        </footer>
+    </section>
+
+    <script src="./assets/JavaScript/logic.js"></script>
+    <script src="./assets/JavaScript/form.js"></script>
+</body>
+
+</html>
